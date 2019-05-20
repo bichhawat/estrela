@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Jeeves demo conferance management system" />
+
+    <title>Login Page</title>
+
+    {% load static %}
+
+</head>
+
+<body role="document">
+  <div class="jumbotron">
+    <div class="toptext">
+      <h2>Employee Detail</h2>
+    </div>
+  </div>
+
+  <div class="container">
+    <form role="form" class="form-signin" method="post" action="">{% csrf_token %}
+      <h2 class="form-signin-heading">Log In.</h2>
+      {% if form.errors %}{{ form.non_field_errors.as_text | safe }}{% endif %}
+      <input type="text" class="form-control" id="id_username" maxlength="254" name="username" placeholder="Username" required>
+      <input type="password" class="form-control" id="id_password" name="password" placeholder="Password" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Let's go!</button>
+     </form>
+  </div>
+
+</html>

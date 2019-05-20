@@ -1,0 +1,922 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "accounts",
+        "model": "profile"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "accounts",
+        "model": "resetpasswordcode"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "accounts",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "credits",
+        "model": "invitation"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "credits",
+        "model": "transfer"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "credits",
+        "model": "wallet"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "posts",
+        "model": "post"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "private_messages",
+        "model": "privatemessage"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "replies",
+        "model": "postreply"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "user_roles",
+        "model": "administrator"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "user_roles",
+        "model": "moderator"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "votes",
+        "model": "postvote"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "authtoken",
+        "model": "token"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "xcnur8r8yg7fvqcw3re1xv7eopdovrls",
+    "fields": {
+        "session_data": "MDE3NGU1M2JmYjI3ODI5MGNiZjlkNzFmMmY1YmI0NjQ4MjE3YTg3ZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1MTdhNWViOTY0NDEwNTQwM2NjZDlkOGI1ODZiZjc4MGU4MzRmNGU1In0=",
+        "expire_date": "2018-07-19T18:57:29.149Z"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add profile",
+        "content_type": [
+            "accounts",
+            "profile"
+        ],
+        "codename": "add_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change profile",
+        "content_type": [
+            "accounts",
+            "profile"
+        ],
+        "codename": "change_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete profile",
+        "content_type": [
+            "accounts",
+            "profile"
+        ],
+        "codename": "delete_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add reset password code",
+        "content_type": [
+            "accounts",
+            "resetpasswordcode"
+        ],
+        "codename": "add_resetpasswordcode"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change reset password code",
+        "content_type": [
+            "accounts",
+            "resetpasswordcode"
+        ],
+        "codename": "change_resetpasswordcode"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete reset password code",
+        "content_type": [
+            "accounts",
+            "resetpasswordcode"
+        ],
+        "codename": "delete_resetpasswordcode"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "accounts",
+            "user"
+        ],
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "accounts",
+            "user"
+        ],
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "accounts",
+            "user"
+        ],
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add invitation",
+        "content_type": [
+            "credits",
+            "invitation"
+        ],
+        "codename": "add_invitation"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change invitation",
+        "content_type": [
+            "credits",
+            "invitation"
+        ],
+        "codename": "change_invitation"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete invitation",
+        "content_type": [
+            "credits",
+            "invitation"
+        ],
+        "codename": "delete_invitation"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add transfer",
+        "content_type": [
+            "credits",
+            "transfer"
+        ],
+        "codename": "add_transfer"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change transfer",
+        "content_type": [
+            "credits",
+            "transfer"
+        ],
+        "codename": "change_transfer"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete transfer",
+        "content_type": [
+            "credits",
+            "transfer"
+        ],
+        "codename": "delete_transfer"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add wallet",
+        "content_type": [
+            "credits",
+            "wallet"
+        ],
+        "codename": "add_wallet"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change wallet",
+        "content_type": [
+            "credits",
+            "wallet"
+        ],
+        "codename": "change_wallet"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete wallet",
+        "content_type": [
+            "credits",
+            "wallet"
+        ],
+        "codename": "delete_wallet"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add post",
+        "content_type": [
+            "posts",
+            "post"
+        ],
+        "codename": "add_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change post",
+        "content_type": [
+            "posts",
+            "post"
+        ],
+        "codename": "change_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete post",
+        "content_type": [
+            "posts",
+            "post"
+        ],
+        "codename": "delete_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add private message",
+        "content_type": [
+            "private_messages",
+            "privatemessage"
+        ],
+        "codename": "add_privatemessage"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change private message",
+        "content_type": [
+            "private_messages",
+            "privatemessage"
+        ],
+        "codename": "change_privatemessage"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete private message",
+        "content_type": [
+            "private_messages",
+            "privatemessage"
+        ],
+        "codename": "delete_privatemessage"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add post reply",
+        "content_type": [
+            "replies",
+            "postreply"
+        ],
+        "codename": "add_postreply"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change post reply",
+        "content_type": [
+            "replies",
+            "postreply"
+        ],
+        "codename": "change_postreply"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete post reply",
+        "content_type": [
+            "replies",
+            "postreply"
+        ],
+        "codename": "delete_postreply"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add administrator",
+        "content_type": [
+            "user_roles",
+            "administrator"
+        ],
+        "codename": "add_administrator"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change administrator",
+        "content_type": [
+            "user_roles",
+            "administrator"
+        ],
+        "codename": "change_administrator"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete administrator",
+        "content_type": [
+            "user_roles",
+            "administrator"
+        ],
+        "codename": "delete_administrator"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add moderator",
+        "content_type": [
+            "user_roles",
+            "moderator"
+        ],
+        "codename": "add_moderator"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change moderator",
+        "content_type": [
+            "user_roles",
+            "moderator"
+        ],
+        "codename": "change_moderator"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete moderator",
+        "content_type": [
+            "user_roles",
+            "moderator"
+        ],
+        "codename": "delete_moderator"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add post vote",
+        "content_type": [
+            "votes",
+            "postvote"
+        ],
+        "codename": "add_postvote"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change post vote",
+        "content_type": [
+            "votes",
+            "postvote"
+        ],
+        "codename": "change_postvote"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete post vote",
+        "content_type": [
+            "votes",
+            "postvote"
+        ],
+        "codename": "delete_postvote"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add Token",
+        "content_type": [
+            "authtoken",
+            "token"
+        ],
+        "codename": "add_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change Token",
+        "content_type": [
+            "authtoken",
+            "token"
+        ],
+        "codename": "change_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete Token",
+        "content_type": [
+            "authtoken",
+            "token"
+        ],
+        "codename": "delete_token"
+    }
+},
+{
+    "model": "accounts.user",
+    "fields": {
+        "password": "pbkdf2_sha256$36000$9JP0UyJvJ2YK$uqigt+2YbFd2xQTdnOS3W7kxR7LEJkSBA/+aJpbMcYk=",
+        "last_login": "2018-07-05T18:57:29.112Z",
+        "is_superuser": true,
+        "date_joined": "2017-06-18T07:06:03.348Z",
+        "email": "admin@email.com",
+        "first_name": "Bucky",
+        "last_name": "Roberts",
+        "is_active": true,
+        "is_staff": true,
+        "groups": [],
+        "user_permissions": [],
+        "following": []
+    }
+},
+{
+    "model": "accounts.user",
+    "fields": {
+        "password": "pbkdf2_sha256$36000$9gTgHm2UOh0z$OnfdGGc3E+l0pYjl7n4pt/+6bO4diCopwTMUBMrRTuM=",
+        "last_login": null,
+        "is_superuser": false,
+        "date_joined": "2017-06-18T07:08:45.154Z",
+        "email": "moderator@email.com",
+        "first_name": "Matt",
+        "last_name": "Smith",
+        "is_active": true,
+        "is_staff": false,
+        "groups": [],
+        "user_permissions": [],
+        "following": []
+    }
+},
+{
+    "model": "accounts.user",
+    "fields": {
+        "password": "pbkdf2_sha256$36000$sMSpc6LibVQE$9INkf/CldcEgaQuL/zy9LqEKziU4VDGz+qQHPwM9YYA=",
+        "last_login": null,
+        "is_superuser": false,
+        "date_joined": "2017-06-18T07:10:42.192Z",
+        "email": "normal@email.com",
+        "first_name": "Norma",
+        "last_name": "Jean",
+        "is_active": true,
+        "is_staff": false,
+        "groups": [],
+        "user_permissions": [],
+        "following": [
+            [
+                "moderator@email.com"
+            ]
+        ]
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": 1,
+    "fields": {
+        "image": "",
+        "user": [
+            "admin@email.com"
+        ]
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": 2,
+    "fields": {
+        "image": "",
+        "user": [
+            "moderator@email.com"
+        ]
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": 3,
+    "fields": {
+        "image": "",
+        "user": [
+            "normal@email.com"
+        ]
+    }
+},
+{
+    "model": "credits.wallet",
+    "pk": 1,
+    "fields": {
+        "balance": 0,
+        "user": [
+            "normal@email.com"
+        ]
+    }
+},
+{
+    "model": "credits.wallet",
+    "pk": 2,
+    "fields": {
+        "balance": 0,
+        "user": [
+            "moderator@email.com"
+        ]
+    }
+},
+{
+    "model": "private_messages.privatemessage",
+    "pk": 1,
+    "fields": {
+        "created_date": "2018-07-06T20:53:40.172Z",
+        "modified_date": "2018-07-06T20:53:40.172Z",
+        "sender": [
+            "admin@email.com"
+        ],
+        "receiver": [
+            "normal@email.com"
+        ],
+        "subject": "Thanks for joining!",
+        "body": "Hi Norma. Thank you for joining this social network!"
+    }
+},
+{
+    "model": "private_messages.privatemessage",
+    "pk": 2,
+    "fields": {
+        "created_date": "2018-07-06T20:55:05.759Z",
+        "modified_date": "2018-07-06T20:55:05.759Z",
+        "sender": [
+            "normal@email.com"
+        ],
+        "receiver": [
+            "admin@email.com"
+        ],
+        "subject": "Thank you for the invite",
+        "body": "Thanks for inviting me to the party Bucky! It was a lot of fun."
+    }
+},
+{
+    "model": "user_roles.administrator",
+    "pk": 1,
+    "fields": {
+        "created_date": "2017-06-22T22:35:24.149Z",
+        "modified_date": "2017-06-22T22:35:24.149Z",
+        "user": [
+            "admin@email.com"
+        ]
+    }
+},
+{
+    "model": "user_roles.moderator",
+    "pk": 1,
+    "fields": {
+        "created_date": "2017-06-22T22:35:37.636Z",
+        "modified_date": "2017-06-22T22:35:37.636Z",
+        "sponsor": [
+            "admin@email.com"
+        ],
+        "user": [
+            "moderator@email.com"
+        ]
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "1e3f0cff518c25647c29865f618941f3f5b4699e",
+    "fields": {
+        "user": [
+            "admin@email.com"
+        ],
+        "created": "2017-06-18T07:07:33.751Z"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "757d64afe02aa17aeedfd084c515627d0100d1ad",
+    "fields": {
+        "user": [
+            "moderator@email.com"
+        ],
+        "created": "2017-06-18T07:09:56.829Z"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "8d5053c383730b0d95cbacb42b4d9471a573fb70",
+    "fields": {
+        "user": [
+            "normal@email.com"
+        ],
+        "created": "2017-06-18T07:12:17.953Z"
+    }
+}
+]
