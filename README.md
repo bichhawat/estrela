@@ -20,7 +20,7 @@ Now in a different terminal
 
 1. `cd /path/to/estrela-policy-server`
 
-2. `cd policy-server`
+2. `cd estrela-server`
 
 3. `virtualenv -p python3 env`
 
